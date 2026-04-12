@@ -1,2 +1,3 @@
 # Linux-Scripts-2026
-This repo is only for learning git ~ github
+In this repo I push my learning path towards Linux administration, Cloud engineering and CyberSecurity.
+
