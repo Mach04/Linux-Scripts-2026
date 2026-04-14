@@ -23,3 +23,5 @@ Nginx Deployment: Installed and configured Nginx to serve web content from /var/
 IP Architecture: Managed connections between Windows (Client) and WSL2 (Server) using private IP addressing.
 
 Service Management: Mastered systemctl for managing sockets and service states.
+### [2026-04-14] Environment Optimization
+* Created 'myip' alias to quickly identify server network interface.
