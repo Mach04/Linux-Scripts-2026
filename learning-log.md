@@ -29,3 +29,14 @@ Service Management: Mastered systemctl for managing sockets and service states.
 
 ### [2026-04-14] Environment Optimization
 * Created 'myip' alias to quickly identify server network interface.
+###[2026-04-15] The Cleint Server Handshake
+* Connected to my Ubuntu WSL Server using windows powershell
+* The math RSA vs Ed25519 
+RSA (The Classic): Observed that id_rsa.pub is significantly longer. It relies on the difficulty of factoring large
+ prime numbers. While compatible, it is "heavy" and requires 3072+ bits to stay secure.
+
+Ed25519 (The Modern Standard): Used the much shorter id_ed25519.pub. Despite its size, it is stronger and faster 
+because it uses Elliptic Curve Cryptography (ECC).
+* Port Auditing:  Learned that Port 53 (DNS) and 323 (NTP) are standard internal services, but 80 and 2222 are my public-facing doors.
+* Log Analysis: Used tail -f to monitor traffic. Realized that monitoring logs is the first line of defense against malicious actors trying to find vulnerabilities. 
+
