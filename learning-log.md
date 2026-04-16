@@ -29,7 +29,8 @@ Service Management: Mastered systemctl for managing sockets and service states.
 
 ### [2026-04-14] Environment Optimization
 * Created 'myip' alias to quickly identify server network interface.
-###[2026-04-15] The Cleint Server Handshake
+
+### [2026-04-15] The Cleint Server Handshake
 * Connected to my Ubuntu WSL Server using windows powershell
 * The math RSA vs Ed25519 
 RSA (The Classic): Observed that id_rsa.pub is significantly longer. It relies on the difficulty of factoring large
@@ -40,3 +41,10 @@ because it uses Elliptic Curve Cryptography (ECC).
 * Port Auditing:  Learned that Port 53 (DNS) and 323 (NTP) are standard internal services, but 80 and 2222 are my public-facing doors.
 * Log Analysis: Used tail -f to monitor traffic. Realized that monitoring logs is the first line of defense against malicious actors trying to find vulnerabilities. 
 
+### [2026-04-16]Web Engineering & Cybersecurity
+* Tooling(Curl vs Browser) learned that curl retrievs raw data (HTML) which is safer for security auditing.
+* Reverse Engineering: Used F12 Developer Tools to inspect CSS/JS and audit how professional sites are built.
+* Security Risks: Analyzed the dangers of "Website Cloning" (Phishing) and the risk of Lateral Movement if a 
+local lab is exposed to the public internet without a shield like Cloudflare Tunnels.
+
+Optimization: Refactored a bloated 7,000-line external CSS file into a clean, internal style block to improve page load speed and maintainability.
